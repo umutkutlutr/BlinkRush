@@ -1,26 +1,10 @@
 {
-  "name": "blinkrush",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "name": "blinkrush-monorepo",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev:frontend": "cd frontend && npm run dev",
-    "dev:backend": "cd backend && npm run start:dev",
+    "dev:frontend": "cd frontend && pnpm dev",
+    "dev:backend": "cd backend && pnpm start:dev",
     "test:contracts": "cd contracts && forge test"
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/umutkutlutr/BlinkRush.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/umutkutlutr/BlinkRush/issues"
-  },
-  "homepage": "https://github.com/umutkutlutr/BlinkRush#readme",
-  "description": ""
+  }
 }
